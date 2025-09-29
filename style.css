@@ -1,0 +1,56 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.boxed {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.dashed {
+    border: dashed 2px black;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
+}
+
+#bgorange {
+    background-color: orange;
+}
+
+.logo {
+    width: 20%;
+    padding: 3px;
+}  
+
+.link {
+    width: 60%;
+    padding: 3px;
+    
+}
+
+.login {
+    width: 20%;  
+    padding: 3px;
+}
+
+#1stlayout {
+    background-color: blue;
+    height: 100px;
+}
